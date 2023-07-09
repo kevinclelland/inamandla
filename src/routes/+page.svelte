@@ -22,7 +22,7 @@ import Icon from '@iconify/svelte';
 			<AccordionItem>
 				<svelte:fragment slot="lead"><Icon icon="fa6-solid:helmet-safety" width="2em"  /></svelte:fragment>
 				<svelte:fragment slot="summary"><div class="text-2xl">Construction</div></svelte:fragment>
-				<svelte:fragment slot="content"><p class="text-lg">We specialise in residential homes but have the expetise to handle almost any requirement big or small.</p></svelte:fragment>
+				<svelte:fragment slot="content"><p class="text-lg">We specialise in residential homes but have the expertise to handle almost any requirement big or small.</p></svelte:fragment>
 			</AccordionItem>
 			<AccordionItem>
 				<svelte:fragment slot="lead"><Icon icon="mdi:tools" width="2em" /></svelte:fragment>
