@@ -24,7 +24,7 @@
 <div class="grid grid-cols-1 sm:grid-cols-3 justify-items-center max-w-4xl mx-auto">
 	<div class="flex col-span-1 items-center font-bold ">Contact Us: </div>
 	<div class="flex col-span-1 items-center font-bold "><Icon class="mx-1" icon="ph:phone-fill"/>0727478170</div>
-	<div class="flex col-span-1 items-center font-bold "><Icon class="mx-1" icon="iconamoon:email-bold" />mandla@inamandlacontractors.co.za</div>
+	<div class="flex col-span-1 items-center font-bold "><Icon class="mx-1" icon="iconamoon:email-bold" />inamandlacontractors@gmail.com</div>
 </div>
 
 	</svelte:fragment>
