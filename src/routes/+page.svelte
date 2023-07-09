@@ -7,15 +7,17 @@ import Icon from '@iconify/svelte';
 
 
 
-<div class="card p-4 max-w-4xl mx-auto m-4">
-	<div class="h3 text-4xl text-center p-4">Welcome!</div>
+<div class="card p-4 max-w-6xl mx-auto m-4">
+	<div class="h3 text-4xl text-center p-4 font-bold">Welcome to Inamandla Contractors</div>
 	<p class="text-lg">We are a full service Construction Company dedicated to building and improving residential and commercial structures according to client needs and desires. 
 		Founded in 2020 and based in Shakaskraal, our team is ready to give your space whatever updates it requires. 
 		Just give us a call or write us a note and we’ll get back to you with a quote.</p>
 	<p class="text-2xl text-center p-4">You dream it. We build it.</p>	
+	
 	</div>
 
-	<div class="card p-4 max-w-4xl mx-auto m-4">
+	<div class="card p-4 max-w-6xl mx-auto m-4">
+		<div class="h3 text-4xl text-center p-4 font-bold">Our Services</div>
 		<Accordion>
 			<AccordionItem>
 				<svelte:fragment slot="lead"><Icon icon="fa6-solid:helmet-safety" width="2em"  /></svelte:fragment>
@@ -41,18 +43,19 @@ import Icon from '@iconify/svelte';
 			</AccordionItem>
 			<!-- ... -->
 		</Accordion>
-		</div>
-
-		<div class="logo-cloud grid-cols-1 lg:!grid-cols-3 gap-0.5 max-w-4xl mx-auto m-4">
+		<div class="logo-cloud grid-cols-1 lg:!grid-cols-3 gap-0.5 max-w-6xl mx-auto m-4">
 		
 			<a class="logo-item"  href="https://www.simbithi.com/"><img src="/simbithi.jpg" alt=""></a>
 			<a class="logo-item"  href="https://www.nhbrc.org.za/"><img src="/nhbrclogo.png" class="logo-item" alt=""></a>
 			<a class="logo-item"  href="https://palmlakesfamilyestate.co.za/"><img src="/palmlakes.jpg" class="logo-item" alt=""></a>
 			
 		</div>
+		</div>
 
-<div class="card p-4 max-w-7xl mx-auto">
-	<header class="card-header text-4xl text-center">Recent Projects</header>
+		
+
+<div class="card p-4 max-w-6xl mx-auto">
+	<header class="card-header text-4xl text-center font-bold">Recent Projects</header>
 	<div class="p-4">
 <Carousel />
 </div>
@@ -61,11 +64,10 @@ import Icon from '@iconify/svelte';
 
 
 
-
-
-<div class="card p-2 max-w-4xl mx-auto m-4">
-	<header class="card-header text-2xl">Contact Us</header>
-	<div class="p-4 text-lg">Call: 0727478170</div>
-	<div class="p-4 text-lg">Email: mandla@inamandlacontractors.co.za</div>
-	<div class="p-4 text-lg">482 Salt Rock Rd Dolphin Coast, South Africa</div>
+<div class="card p-2 max-w-6xl mx-auto m-4">
+	
+	<div class="h3 text-4xl text-center p-4 font-bold">Contact Us</div>
+	<div class="text-xl text-center font-semibold">Call: 0727478170</div>
+	<div class="text-xl text-center font-semibold">Email: mandla@inamandlacontractors.co.za</div>
+	<div class="p-4 text-lg text-center">482 Salt Rock Rd Dolphin Coast, South Africa</div>
 </div>

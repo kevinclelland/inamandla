@@ -15,19 +15,17 @@
 	<svelte:fragment slot="header">
 		
 		
-<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
-	<svelte:fragment slot="lead"><img src="/logo.png" alt="" class="w-72"></svelte:fragment>
-	
-	<svelte:fragment slot="trail">
-	
-	
-	<div class="grid grid-rows-2 grid-flow-col gap-4">
-	
-	<div class="flex items-center"><Icon class="mx-1" icon="ph:phone-fill"/>0727478170</div>
-	<div class="flex items-center"><Icon class="mx-1" icon="iconamoon:email-bold" />mandla@inamandlacontractors.co.za</div>
-	</div></svelte:fragment>
+<AppBar gridColumns="grid-cols-1" slotDefault="place-self-center" slotTrail="place-content-end">
+	<svelte:fragment slot="lead"> </svelte:fragment>
+	<img src="/logo.png" alt="" class="w-72 col-span-1">
+	<svelte:fragment slot="trail"> </svelte:fragment>
 </AppBar>
 
+<div class="grid grid-cols-1 sm:grid-cols-3 justify-items-center max-w-4xl mx-auto">
+	<div class="flex col-span-1 items-center font-bold ">Contact Us: </div>
+	<div class="flex col-span-1 items-center font-bold "><Icon class="mx-1" icon="ph:phone-fill"/>0727478170</div>
+	<div class="flex col-span-1 items-center font-bold "><Icon class="mx-1" icon="iconamoon:email-bold" />mandla@inamandlacontractors.co.za</div>
+</div>
 
 	</svelte:fragment>
 	<!-- (sidebarLeft) -->
