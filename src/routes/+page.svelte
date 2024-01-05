@@ -45,9 +45,9 @@ import Icon from '@iconify/svelte';
 		</Accordion>
 		<div class="logo-cloud grid-cols-1 lg:!grid-cols-3 gap-0.5 max-w-6xl mx-auto m-4">
 		
-			<a class="logo-item"  href="https://www.simbithi.com/"><img src="/simbithi.jpg" alt=""></a>
-			<a class="logo-item"  href="https://www.nhbrc.org.za/"><img src="/nhbrclogo.png" class="logo-item" alt=""></a>
-			<a class="logo-item"  href="https://palmlakesfamilyestate.co.za/"><img src="/palmlakes.jpg" class="logo-item" alt=""></a>
+			<a class="logo-item"  href="https://www.simbithi.com/"><img src="/simbithi-logo.png" alt=""></a>
+			<a class="logo-item"  href="https://www.nhbrc.org.za/"><img src="/NHBRC.png" class="logo-item" alt=""></a>
+			<a class="logo-item"  href="https://palmlakesfamilyestate.co.za/"><img src="/palmlakes-logo.png" class="logo-item" alt=""></a>
 			
 		</div>
 		</div>
